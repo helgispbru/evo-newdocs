@@ -204,7 +204,7 @@ _По умолчанию:_ `$_GET['search']`
     &noResult=`@CODE:
         <div class="srch_res_info">По запросу <u>[+stat_request+]</u>
         ничего не найдено. Смягчите условия поиска</div>`
-    &ownerTPL=`@CODE:
+    &ownerTpl=`@CODE:
         <div class="srch_res">[+dl.wrap+] </div>`
     &tpl=`@CODE:
         <div class="srch_res_one">
