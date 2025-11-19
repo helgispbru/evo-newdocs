@@ -58,19 +58,19 @@ if ($_REQUEST[$field] == $value) {
     &selectedClassName=`selected`
     &paramsForm=`paramsForm`
     &keepParams=`page`
-    &paramsOwnerTPL=`@CODE:
+    &paramsOwnerTpl=`@CODE:
         <form method="get" action="%5B~%5B*id*%5D~%5D.html">
         [+keepParams+] [+params+]
         <button type="submit">Отправить</button>
         </form>`
-    &param.ownerTPL=`@CODE:
+    &param.ownerTpl=`@CODE:
         <label>[+description+]</label>
         <select name="[+paramName+]">[+values+]</select>`
     &param.tpl=`@CODE:
         <option value="[+value+]" [+selectedClass+]>[+description+]</option>`
     &sortBy.tpl=`@CODE:
         <option value="[+value+]" [+selectedClass+]>[+description+]</option>`
-    &display.ownerTPL=`@CODE:
+    &display.ownerTpl=`@CODE:
         <label style="color:red;">[+description+]</label>
         <select name="[+paramName+]">[+values+]</select>`
     &keepTpl=`@CODE:
